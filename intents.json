@@ -1,0 +1,223 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hi there",
+                "Hello",
+                "Hey there",
+                "Howdy",
+                "Hola",
+                "Bonjour",
+                "Hay",
+                "Sasa",
+                "Good Evening",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hello there! I'm Fertilogy, your Virtual PCOS Assistant. How may I help you today?",
+                "Hi there! Fertilogy here, your Virtual PCOS Assistant. What can I assist you with today?",
+                "Hello! I'm Fertilogy, the Virtual PCOS Assistant. How can I support you today?",
+                "Great to see you! I'm Fertilogy, your Virtual PCOS Assistant. How can I help you right now?",
+                "Hi! Fertilogy here, your Virtual PCOS Assistant. What's on your mind today?",
+                "Hey! I'm Fertilogy, your Virtual PCOS Assistant. How can I assist you today?",
+                "Greetings! Fertilogy here, your Virtual PCOS Assistant. What can I do for you today?",
+                "Hello! I'm Fertilogy, here to help with your PCOS questions. How can I assist you?",
+                "Hi there! I'm Fertilogy, ready to assist you with your PCOS concerns. How may I help?",
+                "Hello! Fertilogy, your Virtual PCOS Assistant, is here. How can I support you right now?",
+                "Hey there! I'm Fertilogy, your Virtual PCOS Assistant. What would you like to discuss today?",
+                "Hi! Fertilogy here, your Virtual PCOS Assistant. How can I help make your day better?",
+                "Hello! I'm Fertilogy, here to provide support for your PCOS journey. How can I assist you today?",
+                "Hey! I'm Fertilogy, your Virtual PCOS Assistant. What's on your mind and how can I help?"
+            ]
+        },
+        {
+            "tag": "morning",
+            "patterns": [
+                "Good morning"
+            ],
+            "responses": [
+                "Good morning. I hope you had a good night's sleep. How are you feeling today?"
+            ]
+        },
+        {
+            "tag": "afternoon",
+            "patterns": [
+                "Good afternoon"
+            ],
+            "responses": [
+                "Good afternoon. How is your day going?"
+            ]
+        },
+        {
+            "tag": "evening",
+            "patterns": [
+                "Good evening"
+            ],
+            "responses": [
+                "Good evening. How has your day been?"
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_1",
+            "patterns": [
+                "What are the symptoms of PCOS?"
+            ],
+            "responses": [
+                "Common symptoms of PCOS include irregular menstrual periods, excess hair growth, acne, and obesity. Would you like to know more about any specific symptom?"
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_2",
+            "patterns": [
+                "How do I know if I have PCOS?"
+            ],
+            "responses": [
+                "Symptoms of PCOS can vary but often include irregular periods, excessive hair growth, acne, and weight gain. It's important to consult with a healthcare provider for a proper diagnosis."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_3",
+            "patterns": [
+                "Signs of PCOS"
+            ],
+            "responses": [
+                "Symptoms of PCOS can vary but often include irregular periods, excessive hair growth, acne, and weight gain. It's important to consult with a healthcare provider for a proper diagnosis."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_4",
+            "patterns": [
+                "Sudden hair loss and acne on my face. Are these symptoms of PCOS?"
+            ],
+            "responses": [
+                "Yes, sudden hair loss and acne on the face can be symptoms of Polycystic Ovary Syndrome (PCOS). Elevated levels of male hormones (androgens) can lead to symptoms such as hair thinning or baldness (androgenic alopecia) and acne. It is important to consult a healthcare provider for a proper diagnosis and to discuss potential treatment options."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_5",
+            "patterns": [
+                "I am having irregular periods since 3 months, does this mean I am diagnosed with PCOS?"
+            ],
+            "responses": [
+                "Having irregular periods for three months could be indicative of Polycystic Ovary Syndrome (PCOS), but it is not a definitive diagnosis on its own. It is crucial to consult with a healthcare provider who can perform the necessary tests to determine the underlying cause of your symptoms."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_6",
+            "patterns": [
+                "I have been noticing sudden facial hair which makes me look manly. Is this because of PCOS or could it be due to something else?"
+            ],
+            "responses": [
+                "Sudden facial hair growth, or hirsutism, can indeed be a symptom of Polycystic Ovary Syndrome (PCOS). However, hirsutism can also be caused by other factors such as hormonal imbalances, certain medications, and other medical conditions. It is important to seek medical advice to determine the exact cause of your symptoms."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_7",
+            "patterns": [
+                "I am having sudden weight gain. Could this be a symptom of PCOS?"
+            ],
+            "responses": [
+                "Yes, sudden weight gain can be a symptom of Polycystic Ovary Syndrome (PCOS). PCOS can cause insulin resistance, which can lead to weight gain, particularly around the abdomen. Managing weight through a balanced diet and regular exercise can help alleviate some symptoms of PCOS."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_8",
+            "patterns": [
+                "I am having fatigue all the time. Is this related to PCOS?"
+            ],
+            "responses": [
+                "Yes, fatigue is a common symptom of PCOS. Hormonal imbalances, insulin resistance, and sleep disturbances associated with PCOS can all contribute to persistent tiredness and low energy levels. Managing blood sugar levels and ensuring adequate rest can help mitigate fatigue."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_9",
+            "patterns": [
+                "I am having skin tags on my body. Could this be due to PCOS?"
+            ],
+            "responses": [
+                "Yes, skin tags can be a symptom of PCOS. They are small, benign growths on the skin and are more common in areas where skin rubs against skin or clothing. The hormonal imbalances and insulin resistance seen in PCOS may increase the likelihood of developing skin tags."
+            ]
+        },
+        {
+            "tag": "pcos_symptoms_10",
+            "patterns": [
+                "I am having dark patches of skin. Is this a symptom of PCOS?"
+            ],
+            "responses": [
+                "Yes, dark patches of skin, particularly in areas like the neck, groin, or under the breasts, can be related to PCOS. This condition, known as acanthosis nigricans, is associated with insulin resistance."
+            ]
+        },
+        {
+            "tag": "pcos_treatment_1",
+            "patterns": [
+                "What are the treatment options for PCOS?"
+            ],
+            "responses": [
+                "Treatment for PCOS may involve lifestyle changes such as diet and exercise, medications like hormonal birth control, and managing symptoms. Would you like detailed information on any of these treatment methods?"
+            ]
+        },
+        {
+            "tag": "pcos_treatment_2",
+            "patterns": [
+                "How is PCOS treated?"
+            ],
+            "responses": [
+                "Managing PCOS usually includes a combination of lifestyle changes, medication, and sometimes surgery. Specific treatment can depend on your symptoms and whether you are planning for pregnancy."
+            ]
+        },
+        {
+            "tag": "pcos_lifestyle_1",
+            "patterns": [
+                "What lifestyle changes can help with PCOS?"
+            ],
+            "responses": [
+                "Lifestyle changes that may help manage PCOS include maintaining a healthy weight, regular physical activity, and a balanced diet low in refined sugars and carbohydrates. Would you like more detailed nutritional advice?"
+            ]
+        },
+        {
+            "tag": "pcos_lifestyle_2",
+            "patterns": [
+                "Can diet affect PCOS?"
+            ],
+            "responses": [
+                "Diet and exercise play a significant role in managing PCOS. A diet low in processed foods and rich in whole grains, fruits, and vegetables is beneficial. Regular exercise can also help regulate your menstrual cycle."
+            ]
+        },
+        {
+            "tag": "pcos_lifestyle_3",
+            "patterns": [
+                "How can I manage PCOS with diet?"
+            ],
+            "responses": [
+                "Diet and exercise play a significant role in managing PCOS. A diet low in processed foods and rich in whole grains, fruits, and vegetables is beneficial. Regular exercise can also help regulate your menstrual cycle."
+            ]
+        },
+        {
+            "tag": "PCOS_Diagnosis",
+            "patterns": "Tell me more about this",
+            "responses": [
+                "The diagnosis of PCOS typically involves a combination of medical history, physical examination, blood tests to check hormone levels, and an ultrasound to examine the ovaries. Your healthcare provider will look for signs of excess androgens (male hormones), ovulatory dysfunction, and polycystic ovaries. It is important to discuss all your symptoms with your healthcare provider to get an accurate diagnosis."
+            ]
+        },
+        {
+            "tag": "PCOS_Treatment_Information",
+            "patterns": "Yes",
+            "responses": [
+                "Treatment for PCOS may involve a combination of lifestyle changes, medications, and managing symptoms. Lifestyle changes include adopting a balanced diet with low sugar intake and high fiber to help manage insulin levels and support weight loss, and engaging in regular physical activity to improve insulin sensitivity and assist with weight management, which can reduce PCOS symptoms. Medications such as hormonal birth control (pills, patches, or vaginal rings) can help regulate menstrual cycles, reduce androgen levels, and manage symptoms like acne and excess hair growth. Metformin, often used for type 2 diabetes, can improve insulin sensitivity and help with weight loss and ovulation. Clomiphene is a fertility medication that can stimulate ovulation in women with PCOS who are trying to conceive. Managing symptoms may also involve hair removal treatments like electrolysis or laser hair removal to manage excess hair growth, acne treatments (topical treatments, oral medications, or hormonal treatments) to control acne, and mental health support through counseling or therapy to manage stress, anxiety, or depression associated with PCOS. Would you like detailed information on any of these treatment methods?"
+            ]
+        },
+        
+        
+        {
+            "tag": "PCOS_Diagnosis",
+            "patterns": "Tell me more about this",
+            "responses": [
+                "The diagnosis of PCOS typically involves a combination of medical history, physical examination, blood tests to check hormone levels, and an ultrasound to examine the ovaries. Your healthcare provider will look for signs of excess androgens (male hormones), ovulatory dysfunction, and polycystic ovaries. It is important to discuss all your symptoms with your healthcare provider to get an accurate diagnosis."
+            ]
+        }
+    ]
+}
